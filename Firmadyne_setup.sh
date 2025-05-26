@@ -30,7 +30,7 @@ chown -R $USER:$USER "$FIRMADYNE_DIR"
 
 echo "[*] Installing required packages..."
 apt install -y busybox-static fakeroot git dmsetup kpartx netcat-openbsd snmp util-linux vlan \
-    nmap python3-psycopg2 python3-pip python3-magic \
+    nmap python3-psycopg2 python3-pip python3-magic gcc-mips-linux-gnu\
     qemu-system-arm qemu-system-mips qemu-system-x86 qemu-utils postgresql wget unzip expect \
     gcc-mipsel-linux-gnu g++-mipsel-linux-gnu qemu-user-static
 
